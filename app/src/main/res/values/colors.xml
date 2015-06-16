@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#005D53</color>
+
+    <color name="colorSecondaryLight">#FF774C</color>
+    <color name="colorSecondary">#FF5722</color>
+    <color name="colorSecondaryDark">#D93602</color>
+
+    <color name="windowBackgroundColor">#ffffffff</color>
+    <color name="navigationBackColor">#000000</color>
+    <color name="black_translucent">#80000000</color>
+
+    <color name="divider">#666666</color>
+</resources>

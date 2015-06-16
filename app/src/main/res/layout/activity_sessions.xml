@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.gdgthess.droidcongr.SessionsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="The Name of the Session"
+            android:id="@+id/sessionNameTxt"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="220dp">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:id="@+id/coverImageView"
+                android:src="@drawable/default_cover"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/logoImageView"
+                android:src="@drawable/default_profpic"
+                android:scaleType="fitXY"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="110dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Speaker Name"
+                android:id="@+id/speakerTxt"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Date : "
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="xx/xx/xxxx"
+                android:id="@+id/theDateTxt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Time : "
+                android:id="@+id/textView6" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="xx.xx - xx.xx"
+                android:id="@+id/theTimeTxt" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="This is a short description of the session"
+            android:id="@+id/descrTxt" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to Google Calendar"
+            android:id="@+id/calendarBtn"
+            android:onClick="AddToCalendar" />
+    </LinearLayout>
+</RelativeLayout>

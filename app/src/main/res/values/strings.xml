@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Droidcon GR</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="sign_out_button_name">Sign out</string>
+    <string name="revoke_access_button_name">Revoke</string>
+
+    <string name="status_sign_in_required">Sign-in required</string>
+    <string name="status_sign_in_error">Error signing in: %s</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_signing_in">Signing in with Google+…</string>
+    <string name="status_signed_out">Signed out</string>
+    <string name="status_revoke_access">Revoked access</string>
+    <string name="status_revoke_access_error">Error revoking access: %s</string>
+    <string name="signed_in_as">Signed in as %s</string>
+
+    <!-- Used if there was an error loading the signed in user's name. -->
+    <string name="unknown_person">Unknown</string>
+    <string name="play_services_error">Google Play services is not available.  This application will close.</string>
+    <string name="close">Close</string>
+    <string name="profile_picture">User\'s profile picture.</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_navigation_drawer_fragment">Hello blank fragment</string>
+    <string name="title_activity_start">Droidcon GR</string>
+
+    <string name="welcomeText">Here we are finally online! Though we are still working to update all of the content for you to be able to experience the best out of our site and get ready … we are also developing a nice droidconGR app for android so for you to be updated on the road as well. As you know we have our call for papers announced and now you can cruise as well into the barcamp and democamp sessions, in case you would like to join us! For the first droidcon in Greece we opted to be hosted in the friendly, human centered and magnificent city of Thessaloniki, in Northern Greece! And if you are a lady developer …a really interesting news is the fact that intel might sponsor you travel and accommodation up to a certain amount, due to the awesome partnership that it has made with droidcon global, please have a look here for further info! We have also our team form ready for you to take part to this first ever happened in Greece droidcon! Be aware that the form will be closing in a few days, exactly the 15 of June, as we have received quite a lot of interest from all of you! Awesome! So hurry up and fill it here! If you have any requests or would like to know more please do not hesitate to contact us, and please do feedback us about the site and if there is something that is missing … apart from graphics, we have an awesome team that is working very hard and you will see soon the mascots and the graphics that will impress this first droidcon Greece and you will never forget!!! And, yeap, of course, the speakers and sessions, which are populating right now and soon we will be announced! You will have the chance to meet our rockstars speakers, coming from all over the world to share with us here in Thessaloniki, the latest updates about android ecosystem for developers and companies!</string>
+    <string name="title_activity_text">TextActivity</string>
+    <string name="title_activity_tickets">TicketsActivity</string>
+    <string name="title_activity_partners">PartnersActivity</string>
+    <string name="open">Open</string>
+    <string name="title_activity_team">TeamActivity</string>
+    <string name="title_activity_lineup">LineupActivity</string>
+    <string name="title_activity_barcamp">BarcampActivity</string>
+    <string name="title_activity_sessions">SessionsActivity</string>
+</resources>

@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.gdgthess.droidcongr.ScrollViewHelper
+        android:id="@+id/scrollViewHelper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/scrollviewLayoutPartners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/droidcon_banner1"/>
+
+        </LinearLayout>
+
+
+
+    </org.gdgthess.droidcongr.ScrollViewHelper>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+
+</FrameLayout>
+

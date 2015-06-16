@@ -1,0 +1,65 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="org.gdgthess.droidcongr.NavigationDrawerFragmentBarcamp"
+    android:elevation="7sp">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="178dp"
+        android:id="@+id/gplusinfo"
+        android:background="@drawable/default_cover"
+        android:fitsSystemWindows="true"
+        android:clipToPadding="false">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop='16dp'
+            android:src="@drawable/default_profpic"
+            android:id="@+id/profPic"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="My G+ Name"
+            android:id="@+id/gplusName"
+            android:layout_above="@+id/gplusMail"
+            android:paddingLeft="16dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="My G+ Mail"
+            android:id="@+id/gplusMail"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/customList" />
+    </LinearLayout>
+</RelativeLayout>

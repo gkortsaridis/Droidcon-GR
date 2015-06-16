@@ -1,0 +1,160 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="org.gdgthess.droidcongr.NavigationDrawerFragment"
+    android:elevation="7sp">
+
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="178dp"
+        android:id="@+id/gplusinfo"
+        android:background="@drawable/default_cover"
+        android:fitsSystemWindows="true"
+        android:clipToPadding="false">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop='16dp'
+            android:src="@drawable/default_profpic"
+            android:id="@+id/profPic"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="My G+ Name"
+            android:id="@+id/gplusName"
+            android:layout_above="@+id/gplusMail"
+            android:paddingLeft="16dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="My G+ Mail"
+            android:id="@+id/gplusMail"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_below="@+id/gplusinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:paddingTop="8dp"
+        android:adjustViewBounds="true">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:text="Line Up"
+                android:id="@+id/lineUpBtn"
+                android:onClick="LineUp"
+                android:background="#00ff00"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_action"
+                android:paddingLeft="16dp"
+                android:drawablePadding="16dp"
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:text="The Team"
+                android:id="@+id/teamBtn"
+                android:onClick="TheTeam"
+                android:background="#ff0000"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_action"
+                android:paddingLeft="16dp"
+                android:drawablePadding="16dp"
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:text="Tickets"
+                android:id="@+id/ticketsBtn"
+                android:onClick="Tickets"
+                android:background="#0000ff"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_action"
+                android:paddingLeft="16dp"
+                android:drawablePadding="16dp"
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:text="Partners"
+                android:id="@+id/partnersBtn"
+                android:onClick="Partners"
+                android:background="#123456"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_action"
+                android:paddingLeft="16dp"
+                android:drawablePadding="16dp"
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:text="Where"
+                android:id="@+id/whereBtn"
+                android:onClick="Where"
+                android:background="#654321"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_action"
+                android:paddingLeft="16dp"
+                android:drawablePadding="16dp"
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
